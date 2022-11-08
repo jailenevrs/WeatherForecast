@@ -1,6 +1,5 @@
 var button = document.querySelector(".search")
 var inputValue = document.querySelector('.input')
-console.log(inputValue.value)
 
 
 
@@ -19,7 +18,6 @@ button.addEventListener('click',function(){
    getCoordinates(inputValue.value)
 });
 
-var lat=
 
 function getForecast(){
    fetch('api.openweathermap.org/data/2.5/forecast?lat='+lat+'&lon='+lon+'&appid=0f9b2277a81917aa8d1fdf73b2af274e')
