@@ -1,6 +1,6 @@
 # WeatherForecast
 
-With the use of HTML, Bootstrap and the server side API, I was able to create a webpage that presented the forecast based on the City the user searched for. Cities that users previously looked up will be saved in their local storage.
+With the use of HTML, Bootstrap and the server side API, Openweathermap I was able to create a webpage that presented the forecast based on the City the user searched for. Cities that users previously looked up will be saved in their local storage.
 
 # Acceptance Criteria
 
