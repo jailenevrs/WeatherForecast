@@ -1,1 +1,9 @@
+.container{
+    color: white;
+    background-image: linear-gradient( to right, blue, green);
+}
+
+.searcharea{
+    margin-left: 20px;
+}
 
