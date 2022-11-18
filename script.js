@@ -72,7 +72,7 @@ function getForecast(lat,lon){
       var icon2 = forecast[1].weather[0].icon
       var day2Date = forecast[1].dt_txt
       var split2Date = day2Date.slice(0,10);
-      document.getElementById("day2").innerHTML= "Temperature: " + day2temp + "  Wind Speed: " + day2wind + " Mph"
+      document.getElementById("day2").innerHTML= "Temperature: " + day2temp+ "  Wind Speed: " + day2wind + " Mph"
       + " Humidity: " + day2hum + "%"
       document.getElementById("iconPic2").src = "http://openweathermap.org/img/w/"+icon2+".png";
       document.getElementById("Date2").innerHTML=split2Date
